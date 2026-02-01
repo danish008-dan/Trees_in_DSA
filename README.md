@@ -28,3 +28,48 @@ Use Cases
 - Expression trees
 - Hierarchical data representation
 - Foundation for advanced trees
+
+
+Binary Search Tree - Python
+===========================
+
+Overview
+--------
+A Binary Search Tree (BST) is a special type of binary tree
+that maintains ordered data.
+
+BST Property
+------------
+- Left subtree values < root value
+- Right subtree values > root value
+
+Operations
+----------
+- Insert
+- Search
+- Traversal
+
+Time Complexity
+---------------
+Average Case: O(log n)
+Worst Case:   O(n)
+
+Space Complexity
+----------------
+O(n)
+
+Advantages
+----------
+- Faster search compared to arrays
+- Inorder traversal gives sorted data
+
+Disadvantages
+-------------
+- Can become skewed
+- Performance degrades without balancing
+
+Use Cases
+---------
+- Searching and sorting
+- Database indexing
+- File systems
