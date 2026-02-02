@@ -73,3 +73,58 @@ Use Cases
 - Searching and sorting
 - Database indexing
 - File systems
+
+
+
+
+AVL Tree (Self Balancing Binary Search Tree)
+===========================================
+
+Overview
+--------
+AVL Tree is a self-balancing Binary Search Tree where the
+height difference between left and right subtrees of any
+node is at most one.
+
+This balance condition ensures that search, insertion,
+and deletion operations always run in logarithmic time.
+
+Key Features
+------------
+- Automatically balances itself using rotations
+- Guarantees O(log n) performance
+- Inorder traversal always produces sorted output
+
+Rotations Used
+--------------
+- Left Rotation
+- Right Rotation
+- Left-Right Rotation
+- Right-Left Rotation
+
+Time Complexity
+---------------
+Search:   O(log n)
+Insert:   O(log n)
+Delete:   O(log n)
+
+Space Complexity
+----------------
+O(n)
+
+Advantages
+----------
+- Faster search than unbalanced BST
+- Predictable performance
+- Suitable for large datasets
+
+Disadvantages
+-------------
+- More complex implementation
+- Extra overhead for maintaining balance
+
+Use Cases
+---------
+- Databases and indexing systems
+- Memory management
+- Search-intensive applications
